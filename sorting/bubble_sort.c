@@ -38,6 +38,8 @@ int main()
   int array[10];
   int temp, n, swaps = 0;
 
+  printf("---* BUBBLE SORT *--- \n");
+
   printf("Enter array lenght(max allowed 10):");
   scanf("%d", &n);
 

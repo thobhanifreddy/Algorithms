@@ -20,14 +20,18 @@ end procedure
 
 /*
 
-Case-1: O(n) (Best case): 
-  This time complexity can occur if the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements
+Time Complexity: 
+    Case-1: O(n) (Best case): 
+        This time complexity can occur if the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements
 
-Case-2: O(n^2) (Worst case): 
-The worst case is if the array is already sorted but in descending order. 
-This means that in the first iteration it would have to look at n elements, then after that it would look n - 1 elements (since the biggest integer is at the end) and so on and so forth till 1 comparison occurs. 
-Big-O = n + n - 1 + n - 2 ... + 1 = n*(n - 1)/2 = O(n^2)    // 1 + 2 + ... + (n - 2 ) + (n - 1) + n
- 
+    Case-2: O(n^2) (Worst case): 
+        The worst case is if the array is already sorted but in descending order. 
+        This means that in the first iteration it would have to look at n elements, then after that it would look n - 1 elements (since the biggest integer is at the end) and so on and so forth till 1 comparison occurs. 
+        Big-O = n + n - 1 + n - 2 ... + 1 = n*(n - 1)/2 = O(n^2)    // 1 + 2 + ... + (n - 2 ) + (n - 1) + n
+        
+Space Complexity:
+
+    The space complexity for Bubble Sort is O(1), because only a single additional memory space is required i.e. for temp variable.
 */
 
 #include <stdio.h>

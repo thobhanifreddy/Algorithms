@@ -1,4 +1,8 @@
 /*
+
+Reference: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf
+
+
 1. Build Max Heap from unordered array;
 2. Find maximum element A[1];
 3. Swap elements A[n] and A[1]:

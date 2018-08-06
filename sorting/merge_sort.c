@@ -63,7 +63,6 @@ int main()
   {
     printf("%d ", array[i]);
   }
-  int i = 1;
 
   mergeSort(0, n - 1);
 

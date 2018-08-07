@@ -1,7 +1,7 @@
 # Algorithms
 
 Currently, implementation of all algorithms is in C.
-Feel free to add implementations in other programming languages or even improve any if the code. 
+Feel free to add implementations in other programming languages or even improve any of the existing code. 
 
 ## Future Plans
 

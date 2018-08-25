@@ -54,3 +54,4 @@ dkms.conf
 
 # editor config
 .vscode/*.json
+.DS_Store
